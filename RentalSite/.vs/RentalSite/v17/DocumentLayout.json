@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\tchit\\OneDrive\\ubiquitous-bassoon\\RentalSite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tchit\\OneDrive\\ubiquitous-bassoon\\RentalSite\\RentalSite\\Data\\Migrations\\20241026145156_Add Favorites and WishList Models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RentalSite\\Data\\Migrations\\20241026145156_Add Favorites and WishList Models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38C47402-7E36-4235-AA35-489B5043AE51}|RentalSite\\RentalSite.csproj|c:\\users\\tchit\\onedrive\\ubiquitous-bassoon\\rentalsite\\rentalsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38C47402-7E36-4235-AA35-489B5043AE51}|RentalSite\\RentalSite.csproj|solutionrelative:rentalsite\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38C47402-7E36-4235-AA35-489B5043AE51}|RentalSite\\RentalSite.csproj|c:\\users\\tchit\\onedrive\\ubiquitous-bassoon\\rentalsite\\rentalsite\\models\\wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38C47402-7E36-4235-AA35-489B5043AE51}|RentalSite\\RentalSite.csproj|solutionrelative:rentalsite\\models\\wishlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38C47402-7E36-4235-AA35-489B5043AE51}|RentalSite\\RentalSite.csproj|c:\\users\\tchit\\onedrive\\ubiquitous-bassoon\\rentalsite\\rentalsite\\models\\favorites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38C47402-7E36-4235-AA35-489B5043AE51}|RentalSite\\RentalSite.csproj|solutionrelative:rentalsite\\models\\favorites.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38C47402-7E36-4235-AA35-489B5043AE51}|RentalSite\\RentalSite.csproj|c:\\users\\tchit\\onedrive\\ubiquitous-bassoon\\rentalsite\\rentalsite\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38C47402-7E36-4235-AA35-489B5043AE51}|RentalSite\\RentalSite.csproj|solutionrelative:rentalsite\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38C47402-7E36-4235-AA35-489B5043AE51}|RentalSite\\RentalSite.csproj|c:\\users\\tchit\\onedrive\\ubiquitous-bassoon\\rentalsite\\rentalsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C47402-7E36-4235-AA35-489B5043AE51}|RentalSite\\RentalSite.csproj|solutionrelative:rentalsite\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1133,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,54 +46,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20241026145156_Add Favorites and WishList Models.cs",
-              "DocumentMoniker": "C:\\Users\\tchit\\OneDrive\\ubiquitous-bassoon\\RentalSite\\RentalSite\\Data\\Migrations\\20241026145156_Add Favorites and WishList Models.cs",
-              "RelativeDocumentMoniker": "RentalSite\\Data\\Migrations\\20241026145156_Add Favorites and WishList Models.cs",
-              "ToolTip": "C:\\Users\\tchit\\OneDrive\\ubiquitous-bassoon\\RentalSite\\RentalSite\\Data\\Migrations\\20241026145156_Add Favorites and WishList Models.cs",
-              "RelativeToolTip": "RentalSite\\Data\\Migrations\\20241026145156_Add Favorites and WishList Models.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T14:51:57.888Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "WishList.cs",
-              "DocumentMoniker": "C:\\Users\\tchit\\OneDrive\\ubiquitous-bassoon\\RentalSite\\RentalSite\\Models\\WishList.cs",
-              "RelativeDocumentMoniker": "RentalSite\\Models\\WishList.cs",
-              "ToolTip": "C:\\Users\\tchit\\OneDrive\\ubiquitous-bassoon\\RentalSite\\RentalSite\\Models\\WishList.cs",
-              "RelativeToolTip": "RentalSite\\Models\\WishList.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAeAAAA",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\tchit\\OneDrive\\ubiquitous-bassoon\\RentalSite\\RentalSite\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "RentalSite\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\tchit\\OneDrive\\ubiquitous-bassoon\\RentalSite\\RentalSite\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "RentalSite\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACMAAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T14:46:48.106Z",
+              "WhenOpened": "2024-10-26T19:29:03.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Favorites.cs",
-              "DocumentMoniker": "C:\\Users\\tchit\\OneDrive\\ubiquitous-bassoon\\RentalSite\\RentalSite\\Models\\Favorites.cs",
-              "RelativeDocumentMoniker": "RentalSite\\Models\\Favorites.cs",
-              "ToolTip": "C:\\Users\\tchit\\OneDrive\\ubiquitous-bassoon\\RentalSite\\RentalSite\\Models\\Favorites.cs",
-              "RelativeToolTip": "RentalSite\\Models\\Favorites.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T14:44:46.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\tchit\\OneDrive\\ubiquitous-bassoon\\RentalSite\\RentalSite\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "RentalSite\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\tchit\\OneDrive\\ubiquitous-bassoon\\RentalSite\\RentalSite\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "RentalSite\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T14:01:45.776Z",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tchit\\OneDrive\\ubiquitous-bassoon\\RentalSite\\RentalSite\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "RentalSite\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tchit\\OneDrive\\ubiquitous-bassoon\\RentalSite\\RentalSite\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "RentalSite\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T19:20:02.851Z",
               "EditorCaption": ""
             }
           ]
