@@ -4,6 +4,8 @@ namespace RentalSite.Models
 {
     public class WishList
     {
+        public string WishListId { get; set; }
+
         public int PropertyId { get; set; }
 
         public Property Property { get; set; }

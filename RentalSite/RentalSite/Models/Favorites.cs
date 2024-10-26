@@ -4,6 +4,8 @@ namespace RentalSite.Models
 {
     public class Favorites
     {
+        public int FavoritesId { get; set; }
+
         public int PropertyId { get; set; }
 
         public Property Property { get; set; }
