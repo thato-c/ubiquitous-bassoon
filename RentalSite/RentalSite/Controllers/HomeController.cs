@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using RentalSite.Data;
 using RentalSite.Models;
 using RentalSite.ViewModels;
 using System.Diagnostics;
@@ -8,6 +9,8 @@ namespace RentalSite.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+
+        private readonly ApplicationDbContext _context;
 
         // Sample Data
         private List<Property> _properties = new List<Property>
@@ -82,32 +85,35 @@ namespace RentalSite.Controllers
             }
         };
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, ApplicationDbContext context)
         {
             _logger = logger;
+            _context = context;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            if (_properties.Count == 0)
+            var properties = _context.Properties.ToList();
+
+            if (properties.Count == 0)
             {
                 ViewBag.Message = "Properties not found.";
                 return View();
             }
 
-            return View(_properties);
+            return View (properties);
         }
 
         public IActionResult Detail(int PropertyId)
         {
-            var property = _properties.FirstOrDefault(p => p.PropertyId == PropertyId);
+            var property = _context.Properties.FirstOrDefault(p => p.PropertyId == PropertyId);
 
             if (property == null)
             {
                 return NotFound();
             }
 
-            var agent = _agents.FirstOrDefault(a => a.AgentId == property.AgentId);
+            var agent = _context.Agents.FirstOrDefault(a => a.AgentId == property.AgentId);
 
             if (agent == null)
             {
