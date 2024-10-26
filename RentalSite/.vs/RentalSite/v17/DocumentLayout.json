@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\tchit\\OneDrive\\ubiquitous-bassoon\\RentalSite\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38C47402-7E36-4235-AA35-489B5043AE51}|RentalSite\\RentalSite.csproj|c:\\users\\tchit\\onedrive\\ubiquitous-bassoon\\rentalsite\\rentalsite\\viewmodels\\propertyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C47402-7E36-4235-AA35-489B5043AE51}|RentalSite\\RentalSite.csproj|solutionrelative:rentalsite\\viewmodels\\propertyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C47402-7E36-4235-AA35-489B5043AE51}|RentalSite\\RentalSite.csproj|c:\\users\\tchit\\onedrive\\ubiquitous-bassoon\\rentalsite\\rentalsite\\views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38C47402-7E36-4235-AA35-489B5043AE51}|RentalSite\\RentalSite.csproj|solutionrelative:rentalsite\\views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1133,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +43,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PropertyViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tchit\\OneDrive\\ubiquitous-bassoon\\RentalSite\\RentalSite\\ViewModels\\PropertyViewModel.cs",
+              "RelativeDocumentMoniker": "RentalSite\\ViewModels\\PropertyViewModel.cs",
+              "ToolTip": "C:\\Users\\tchit\\OneDrive\\ubiquitous-bassoon\\RentalSite\\RentalSite\\ViewModels\\PropertyViewModel.cs",
+              "RelativeToolTip": "RentalSite\\ViewModels\\PropertyViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T09:35:44.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\tchit\\OneDrive\\ubiquitous-bassoon\\RentalSite\\RentalSite\\Views\\Home\\Detail.cshtml",
+              "RelativeDocumentMoniker": "RentalSite\\Views\\Home\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\tchit\\OneDrive\\ubiquitous-bassoon\\RentalSite\\RentalSite\\Views\\Home\\Detail.cshtml",
+              "RelativeToolTip": "RentalSite\\Views\\Home\\Detail.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-26T09:32:26.344Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,8 +1,46 @@
-﻿@{
+﻿@model List<Property>
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h1>Properties</h1>
+
+@if (Model != null)
+{
+    <table class="table">
+        <tr>
+            <th>Suburb</th>
+            <th>City</th>
+            <th>Province</th>
+            <th>About</th>
+            <th>ERF Size</th>
+            <th>Parking Spaces</th>
+            <th>Bathrooms</th>
+            <th>Bedrooms</th>
+            <th></th>
+        </tr>
+        @foreach (var property in Model)
+        {
+            if (property != null)
+            {
+                <tr>
+                    <td>@property.Suburb</td>
+                    <td>@property.City</td>
+                    <td>@property.Province</td>
+                    <td>@property.About</td>
+                    <td>@property.ERFSize</td>
+                    <td>@property.ParkingSpaces</td>
+                    <td>@property.Bathrooms</td>
+                    <td>@property.Bedrooms</td>
+                    <td>
+                        <a asp-controller="Home" asp-action="Detail" asp-route-PropertyId="@property.PropertyId">Detail</a>
+                    </td>
+                </tr>
+            }
+        }
+    </table>
+}
+else
+{
+    <p>@ViewBag.Message</p>
+}
