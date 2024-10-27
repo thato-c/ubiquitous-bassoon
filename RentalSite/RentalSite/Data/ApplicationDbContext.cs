@@ -13,6 +13,8 @@ namespace RentalSite.Data
 
         public DbSet<Agent> Agents { get; set; }
         public DbSet<Property> Properties { get; set; }
+        public DbSet<Favorites> Favorites { get; set; }
+        public DbSet<WishList> WishList { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -29,6 +31,10 @@ namespace RentalSite.Data
                 .WithOne(p => p.Agent)
                 .HasForeignKey(p => p.AgentId);
 
+            // Configure Primary Keys
+            modelBuilder.Entity<Favorites>().HasKey(f => f.FavoritesId);
+            modelBuilder.Entity<WishList>().HasKey(w => w.WishListId);
+
             // Configure the relationship between Favorites and User
             modelBuilder.Entity<Favorites>()
                 .HasOne(f => f.User)
@@ -40,6 +46,19 @@ namespace RentalSite.Data
                 .HasOne(f => f.Property)
                 .WithMany()
                 .HasForeignKey(f => f.PropertyId)
+                .IsRequired();
+
+            // Configure the relationship between WishList and User
+            modelBuilder.Entity<WishList>()
+                .HasOne(w => w.User)
+                .WithMany()
+                .HasForeignKey(w => w.UserId)
+                .IsRequired();
+
+            modelBuilder.Entity<WishList>()
+                .HasOne(w => w.Property)
+                .WithMany()
+                .HasForeignKey(w => w.PropertyId)
                 .IsRequired();
         }
     }

@@ -1,4 +1,6 @@
-﻿@model List<Property>
+﻿<h1>Favorites</h1>
+
+@model List<Property>
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -18,11 +20,6 @@
             <th>Bathrooms</th>
             <th>Bedrooms</th>
             <th></th>
-            @if (User.Identity.IsAuthenticated)
-            {
-                <th></th>
-                <th></th>
-            }
         </tr>
         @foreach (var property in Model)
         {
@@ -40,16 +37,7 @@
                     <td>
                         <a asp-controller="Home" asp-action="Detail" asp-route-PropertyId="@property.PropertyId">Detail</a>
                     </td>
-                    @if (User.Identity.IsAuthenticated)
-                    {
-                        <td>
-                            <a asp-controller="Favorite" asp-action="Add" asp-route-PropertyId="@property.PropertyId">Favorite</a>
-                        </td>
-                        <td>
-                            <a asp-controller="WishList" asp-action="Add" asp-route-PropertyId="@property.PropertyId">WishList</a>
-                        </td>
-                    }
-                    
+
                 </tr>
             }
         }
